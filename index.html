@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TImer and Stopwacth</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="row">
+        <div>
+            <a href="#timer-id">Timer</a>
+            
+        </div>
+        <div>
+            <a href="#stopwatch-id">Stopwatch</a>
+            
+        </div>
+    </div>
+    <div id="timer-id">
+        <h1>Timer</h1>
+        <div id="input">
+            <input type="text" placeholder="Hours" id="hours">
+            <input type="text" placeholder="Minutes" id="minutes">
+            <input type="text" placeholder="Seconds" id="seconds">
+        </div>
+        <div id="time">
+            <span class="digit" id="hrt">
+                00
+            </span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="mint">
+                00
+            </span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sect">
+                00
+            </span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="countt">
+                00
+            </span>
+        </div>
+        <div id="buttons">
+            <button class="btn" id="start-t">
+                Start
+            </button>
+            <button class="btn" id="stop-t">
+                Stop
+            </button>
+            <button class="btn" id="reset-t">
+                Reset
+            </button>
+        </div>
+    </div>
+    
+    <div id="stopwatch-id">
+        <h1>Stopwatch</h1>
+        <div id="time">
+            <span class="digit" id="hr">
+                00
+            </span>
+            <span class="txt">Hr</span>
+            <span class="digit" id="min">
+                00
+            </span>
+            <span class="txt">Min</span>
+            <span class="digit" id="sec">
+                00
+            </span>
+            <span class="txt">Sec</span>
+            <span class="digit" id="count">
+                00
+            </span>
+        </div>
+        <div id="buttons">
+            <button class="btn" id="start">
+                Start
+            </button>
+            <button class="btn" id="stop">
+                Stop
+            </button>
+            <button class="btn" id="reset">
+                Reset
+            </button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
